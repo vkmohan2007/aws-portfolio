@@ -20,4 +20,4 @@ jobs:
           aws-region: ap-south-1
 
       - name: Deploy static transport site to S3 bucket
-        run: aws s3 sync . s3://vkm-portfolio --delete
+        run: aws s3 sync . s3://aws-portfolio2 --delete
